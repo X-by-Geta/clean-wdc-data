@@ -1,3 +1,5 @@
 name: clean-wdc-dataset
 dependencies:
   - pandas
+  - beautifulsoup4
+  - ftfy

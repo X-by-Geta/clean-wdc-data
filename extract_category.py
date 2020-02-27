@@ -3,11 +3,11 @@ from pathlib import Path
 
 # Input parameters
 category = 'Clothing'
-filename = 'offers_corpus_english_v2_non_norm'
+dataset = 'offers_corpus_english_v2_non_norm'
 
 # Settings
-inputfile = 'dataset/{}.json.gz'.format(filename)
-outputpath = 'output/{}'.format(filename)
+inputfile = 'dataset/{}.json.gz'.format(dataset)
+outputpath = 'output/{}'.format(dataset)
 outputfile = '{}/{}.json.gz'.format(outputpath,category)
 chunksize = 100000
 Path(outputpath).mkdir(parents=True, exist_ok=True)
